@@ -1,0 +1,120 @@
+.login-form {
+	background-image: linear-gradient(to right, rgba(30, 30, 30, 0.35), rgba(30, 30, 30, 0.35)),
+		url("../../assets/img/slider/img3.jpg");
+	height: var(--section-height);
+}
+
+.reg-form {
+	background-image: linear-gradient(to right, rgba(30, 30, 30, 0.35), rgba(30, 30, 30, 0.35)),
+		url("../../assets/img/slider/img4.jpg");
+}
+
+.welcome-page {
+	background-image: linear-gradient(to right, rgba(30, 30, 30, 0.35), rgba(30, 30, 30, 0.35)),
+		url("../../assets/img/slider/img2.jpg");
+	height: var(--section-height);
+}
+
+.logout-page {
+	background-image: linear-gradient(to right, rgba(30, 30, 30, 0.35), rgba(30, 30, 30, 0.35)),
+		url("../../assets/img/slider/img1.jpg");
+	height: var(--section-height);
+}
+
+.login-form,
+.reg-form,
+.welcome-page,
+.logout-page {
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center center, center center;
+	background-size: cover, cover;
+	background-attachment: fixed;
+	padding: 2.5rem 8.5rem;
+}
+
+.wrapper {
+	min-width: 30em;
+	width: 45%;
+	height: fit-content;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(253, 250, 250, 0.75);
+	padding: 2.5em;
+}
+
+.login {
+	width: 100%;
+	text-align: center;
+}
+
+.login form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 1em;
+}
+
+.input-wrapper {
+	margin: 1em 0;
+	width: 100%;
+}
+
+.asterisk {
+	font-size: 0.85rem;
+	text-align: left;
+	color: var(--clr-darkish-black);
+	margin-top: -0.5em;
+}
+
+.proposition {
+	margin-top: 1.5em;
+	font-size: 1rem;
+	font-weight: 400;
+	width: 100%;
+}
+
+.proposition p {
+	margin-bottom: 0.5em;
+}
+
+.proposition a {
+	color: var(--clr-main-accent);
+	text-decoration: none;
+	font-size: 1.09rem;
+	font-weight: 500;
+	opacity: 0.85;
+	transition: 200ms ease-in-out;
+}
+
+.proposition a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.city-mail-code {
+	width: 100%;
+	display: flex;
+}
+
+.city-mail-code input[name="city"] {
+	width: 170%;
+	margin-right: 0.75em;
+}
+
+.btn-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+.btn-container a:first-child {
+	margin-right: 1em;
+}
