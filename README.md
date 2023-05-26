@@ -1,5 +1,4 @@
 # Bakery Website Project
---------------------------
 
 Wecome! It's my first serious website/online shop project. I have designed and coded it during my school practise.
 I used PHP, HTML, CSS and a litte bit od Javascript.
